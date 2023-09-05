@@ -1,0 +1,136 @@
+@charset "utf-8"; /* 导航栏 */
+.astyle{
+    margin:20px 0;
+    width:110px;
+    text-align:center;
+}
+
+/* 按钮 */
+.button {
+    width: 100%;
+    height: 125px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+body{
+    min-width: 1150px;
+    overflow: auto;
+}
+/*#index-header-nav{*/
+/*    font-size: 0px;*/
+/*}*/
+#blog-lable>a{
+    margin: 1px;
+}
+
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "微软雅黑", serif;
+    /*background-color:#ddd;*/
+}
+/*.box{*/
+/*    !*width:760px;*!*/
+/*    height:350px;*/
+/*    background:#fff;*/
+/*    !*margin:30px auto;*!*/
+/*    padding:20px;*/
+/*    border-style: solid;*/
+/*    border-color:#dededf;*/
+/*}*/
+.head span{
+    font-size:18px;
+    color:#333;
+}
+.head{
+    margin-bottom:20px;
+}
+.head a{
+    text-decoration:none;
+    float:right;
+    font-size:15px;
+    color:#333;
+}
+.head a:hover{
+    color:#F00;
+}
+ul li{
+    width:235px;
+    height:280px;
+    list-style:none;
+    position:relative;
+    float:left;
+    margin-left:20px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+ul li .deatil{
+    width:235px;
+    height:280px;
+    background:rgba(0,0,0,0.7);
+    position:absolute;
+    top:-280px;
+    -webkit-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -ms-transition:all 0.3s ease;
+}
+
+ul li .deatil h2{
+    font-size:18px;
+    color:#fff;
+    text-align:center;
+    padding-top:30px;
+}
+ul li .deatil p{
+    font-size:16px;
+    text-align:center;
+    margin:30px;
+    color:#fff;
+}
+ul li .deatil a{
+    font-size:15px;
+    display:block;
+    color:#fff;
+    background-color:#F00;
+    text-decoration:none;
+    width:100px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    margin:0 auto;
+}
+ul li:hover .deatil{
+    top:0;
+}
+
+
+
