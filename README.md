@@ -1,4 +1,5 @@
-# 网站总体概述
+# ChinaDreamPlatform
+📙基于SpringBoot，SpringSecurity，thymeleaf框架开发的广东海洋大学中国梦平台
 
 > 网站主题介绍                                           
 
