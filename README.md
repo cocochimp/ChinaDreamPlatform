@@ -1,6 +1,6 @@
 # 中国梦网站（毕设、课设）
 
-📙基于SpringBoot，SpringSecurity，thymeleaf框架开发的广东海洋大学中国梦平台
+📙基于SpringBoot，SpringSecurity，thymeleaf框架开发的中国梦平台
 
 github地址：https://github.com/cocochimp/ChinaDreamPlatform
 
